@@ -14,7 +14,7 @@ const Dropdown = ({
       {!isDropdownOpen && (
         <div>
           <div
-            className="shadow text-lBlue rounded-2xl z-[1001] inline-flex justify-between w-full max-w-[320px] gap-x-1.5 bg-white px-4 py-2 text-sm font-[500] hover:bg-gray-50"
+            className="shadow text-lBlue rounded-2xl z-[1001] inline-flex justify-between w-full min-w-[320px] gap-x-1.5 bg-white px-4 py-2 text-sm font-[500] hover:bg-gray-50"
             id="menu-button"
             aria-expanded="true"
             aria-haspopup="true"
@@ -41,7 +41,7 @@ const Dropdown = ({
         <>
           <div>
             <div
-              className="relative shadow z-[99999] text-lBlue rounded-t-2xl inline-flex justify-between w-full max-w-[320px] gap-x-1.5 bg-white px-4 py-2 text-sm font-[500] hover:bg-gray-50"
+              className="relative shadow z-[99999] text-lBlue rounded-t-2xl inline-flex justify-between w-full min-w-[320px] gap-x-1.5 bg-white px-4 py-2 text-sm font-[500] hover:bg-gray-50"
               id="menu-button"
               aria-expanded="true"
               aria-haspopup="true"
@@ -63,7 +63,7 @@ const Dropdown = ({
             </div>
           </div>
           <div
-            className="absolute z-[1001] right-70 mt-1 w-full max-w-[320px] origin-top-right rounded-b-2xl bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+            className="absolute z-[1001] right-70 mt-1 w-full max-w-[320px]  origin-top-right rounded-b-2xl bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="menu-button"
